@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+}
+
+#grades {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#grades th,
+#grades td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+#grades th {
+    background-color: #8d8d8d;
+    color: white;
+}
+
+#grades tbody tr:hover {
+    background-color: #b8ffb8;
+}
+
+
+#avg:hover {
+  background-color: #b6b6b6;
+}
