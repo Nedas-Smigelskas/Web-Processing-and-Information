@@ -1,0 +1,342 @@
+body {
+    background-color: #ffd1a6;
+}
+
+.t1 {
+    font-size: 36px;
+    position: relative;
+    height: 70px;
+    text-align: center;
+}
+
+.tri{
+    margin: auto;
+}
+
+.one{
+    width: 0;
+    height: 70px;
+    left: 70%;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid #fa3434;
+    .trionebutton{
+        position: relative;
+        top:110px;
+        left: 15px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 50%;
+        display: none;
+    }
+    .trionebuttonB{
+        position: relative;
+        top:84px;
+        left:-40px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 50%;
+        display: none;
+    }
+}
+
+.one:hover{
+    border-bottom-color: #fb4545;
+    .trionebutton{
+        display: block;
+    }
+    .trionebuttonB{
+        display: block;
+    }
+}
+
+.value{
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.first{
+    top : -398px;
+    left: 0px;
+}
+
+.two {
+    width: 145px;
+    height: 10px;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid #fa8a34;
+    .tritwobutton{
+        position: relative;
+        top:40px;
+        left: 95px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 50%;
+        display: none;
+    }
+    .tritwobuttonB{
+        position: relative;
+        top:15px;
+        left:20px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 50%;
+        display: none;
+    }
+}
+
+.two:hover{
+    border-bottom: 70px solid #fc913f;
+    .tritwobutton{
+        display: block;
+    }
+    .tritwobuttonB{
+        display: block;
+    }
+}
+
+.second{
+    top: -346px;
+    left: 0px;
+}
+
+.three {
+    width: 295px;
+    height: 10px;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid #fae934;
+    .trithreebutton{
+        position: relative;
+        top:35px;
+        left: 173px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 50%;
+        display: none;
+    }
+    .trithreebuttonB{
+        position: relative;
+        top:10px;
+        left:93px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 50%;
+        display: none;
+    }
+}
+
+.three:hover{
+    border-bottom: 70px solid #fff262;
+    .trithreebutton{
+        display: block;
+    }
+    .trithreebuttonB{
+        display: block;
+    }
+}
+
+.third {
+    top: -291px;
+    left: 0px;
+}
+
+.four{
+    width: 435px;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid #34b8fa;
+    .trifourbutton{
+        position: relative;
+        top:30px;
+        left: 245px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 50%;
+        display: none;
+    }
+    .trifourbuttonB{
+        position: relative;
+        top:5px;
+        left:160px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 50%;
+        display: none;
+    }
+}
+
+.four:hover{
+    border-bottom: 70px solid #58c7ff;
+    .trifourbutton{
+        display: block;
+    }
+    .trifourbuttonB{
+        display: block;
+    }
+}
+
+.fourth {
+    top: -235px;
+    left: 0px;
+}
+
+.five {
+    width: 575px;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid #915a4c;
+    .trifivebutton{
+        position: relative;
+        top:25px;
+        left: 315px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 50%;
+        display: none;
+    }
+    .trifivebuttonB{
+        position: relative;
+        top:0px;
+        left:227px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 50%;
+        display: none;
+    }
+}
+
+.five:hover{
+    border-bottom: 70px solid #906257;
+    .trifivebutton{
+        display: block;
+    }
+    .trifivebuttonB{
+        display: block;
+    }
+}
+
+.fiveth {
+    top : -193px;
+}
+
+.six {
+    width: 715px;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid #90fa34;
+    .trisixbutton{
+        position: relative;
+        top:25px;
+        left: 388px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 50%;
+        display: none;
+    }
+    .trisixbuttonB{
+        position: relative;
+        top:0px;
+        left:295px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 50%;
+        display: none;
+    }
+}
+
+.six:hover{
+    border-bottom: 70px solid #a3fb55;
+    .trisixbutton{
+        display: block;
+    }
+    .trisixbuttonB{
+        display: block;
+    }
+}
+
+.sixeth {
+    top: -143px;
+    left: 0px;
+}
+
+#ds{
+    position: relative;
+    top: -80px;
+    background-color: white;
+    border-radius: 10%;
+    
+}
+
+.submitdate{
+    position: relative;
+    top: -80px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+#dateprint{
+    position: inherit;
+    font-size: 30px;
+    text-align: center;
+    left: 675px;
+}

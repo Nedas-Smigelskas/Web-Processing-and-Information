@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="code.js"></script>
+        <link rel="stylesheet" href="styles.css" />
+        <div class="t1">My Food Pyramid</div>
+        <div id="dateprint"></div>
+        <br />
+        <div class="tri">
+            <div class="tri one">
+                <button class="trionebutton" onclick="increase(0)">+</button>
+                <button class="trionebuttonB" onclick="decrease(0)">-</button>
+            </div>
+            <div class="tri two">
+                <button class="tritwobutton" onclick="increase(1)">+</button>
+                <button class="tritwobuttonB" onclick="decrease(1)">-</button>
+            </div>
+            <div class="tri three">
+                <button class="trithreebutton" onclick="increase(2)">+</button>
+                <button class="trithreebuttonB" onclick="decrease(2)">-</button>
+            </div>
+            <div class="tri four">
+                <button class="trifourbutton" onclick="increase(3)">+</button>
+                <button class="trifourbuttonB" onclick="decrease(3)">-</button>
+            </div>
+            <div class="tri five">
+                <button class="trifivebutton" onclick="increase(4)">+</button>
+                <button class="trifivebuttonB" onclick="decrease(4)">-</button>
+            </div>
+            <div class="tri six">
+                <button class="trisixbutton" onclick="increase(5)">+</button>
+                <button class="trisixbuttonB" onclick="decrease(5)">-</button>
+            </div>
+        </div>
+        <div class="value first" id="v1">1</div>
+        <div class="value second" id="v2">1</div>
+        <div class="value third" id="v3">1</div>
+        <div class="value fourth" id="v4">1</div>
+        <div class="value fiveth" id="v5">1</div>
+        <div class="value sixeth" id="v6">1</div>
+        <input type="date" id="ds">
+        <button class="submitdate" onclick="setDate()">Submit</button>
+    </head>
+</html>
